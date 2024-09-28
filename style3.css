@@ -1,0 +1,64 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+:root{
+    background-color: aquamarine;
+
+    
+}
+html{
+    background-color: blueviolet;
+    --primary-color: rgb(255, 0, 0);
+}
+body{
+    background-color: var(--primary-color);
+}
+.box{
+    color: red; 
+}
+#boxId{
+    color: blue;
+}
+#boxId2{
+    background-color: brown;
+}
+
+.btn-pretend{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(225, 225, 225);
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* 
+.btn-pretend{
+    background-color: #03303f;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    font-size: 1em;
+    padding: 15px 30px;
+    color: white;
+    margin-left: 40px;
+    cursor: pointer;
+
+} */
+
+.box2{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 5px solid red;
+    background-color: orange;
+}
+
+[href^="www"]{
+    color:red;
+}
+
+[data-numb]{
+    font-size: 30px;
+}

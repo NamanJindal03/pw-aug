@@ -1,0 +1,92 @@
+
+body {
+    width: 1460px;
+    height: 1100px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    /* font-family: ; */
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    font-size: 22px;
+}
+.nav {
+    border-radius: 3px;
+    font-size: 19px;
+}
+#nav1 {
+    background-color: orange;
+    color: #FFFFFF;
+}
+#title {
+    width: 438px;
+    height: 118px;
+    margin: 100px 70px;
+    font-family: inter, sans-serif;
+}
+h1 {
+    font-size: 55px;
+}
+h2 {
+    font-size: 35px;
+}
+#span1 {
+    color: #01BB0A;
+}
+#span2{
+    color: orange;
+}
+#span3{
+    color: blue;
+}
+#ticket-area {
+    margin-left: 70px;
+    height: 44px;
+    width: 618px;
+    display: flex;
+    justify-content: space-between;
+}
+.area {
+    height: 44px;
+    width: 178px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#area1 {
+    background-color: #213D77;
+    color: #FFFFFF;
+}
+#station, #type {
+    margin: 20px 70px;
+    height: 116px;
+    width: 618px;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+h3, h5 {
+    margin: 10px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#submit {
+    height: 81px;
+    width: 618px;
+    margin: 15px 70px;
+    font-size: 25px;
+    background-color: #01BB0A;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
