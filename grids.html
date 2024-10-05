@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: black;
+            display: grid;
+            width: 80%;
+            grid-template-columns: 3fr 2fr 1fr;
+            padding: 10px;
+            grid-template-rows: repeat(4, 100px);
+
+            grid-template-areas: 
+                'header header'
+                'content aside'
+                'footer footer'
+            ;
+        }
+        /* fr */
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+            /* grid-column-start: 2 ;
+            grid-column-end: 4 ; */
+            /* grid-column: 2/4; */
+            /* grid-row-start: 1;
+            grid-row-end: -1; */
+            /* grid-row: 1/-1; */
+            grid-area: content;
+            
+            z-index: 2;
+        }
+        .blue{
+            background-color: blue;
+            grid-area: footer;
+        }
+        .orange{
+            background-color: orange;
+            grid-area: header;
+            /* grid-column: 1/4;
+            grid-row: 3/4; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red">1</div>
+        <div class="box green">2</div>
+        <div class="box blue">3</div>
+        <div class="box orange">4</div>
+    </div>
+</body>
+</html>
